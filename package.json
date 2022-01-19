@@ -2,11 +2,11 @@
   "name": "spdx-tools-js",
   "version": "1.0.0",
   "description": "Javascript equivalent of spdx-tools.",
-  "main": "public/index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node public/index.js",
-    "build": "babel src -d public"
+    "build": "babel src -d dist"
   },
   "keywords": [
     "spdx",
